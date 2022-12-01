@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+    width: 1366px;
+    height: 768px;
+    border: 1px solid white;
+}
+
+p {
+    text-align: center;
+}
+
+.main {
+    height: 680px;
+    display: flex;
+}
+
+.div1 {
+    width: 900px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div-i {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(52, 54, 52);
+    border-radius: 50%;
+    position: absolute;
+    right:10px;
+    top:10px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.n1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(19, 134, 77);
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 150px;
+}
+
+.right-div {
+    width: 450px;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sn{
+    position: absolute;
+    left: 7px;
+    bottom: 7px;
+}
+.n2 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(19, 134, 77);
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 68, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    margin-right:10px;
+}
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 68, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    margin-right:10px;
+}
+
+.div4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 68, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    margin-right:10px;
+}
+
+.div5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 68, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    margin-right:10px;
+}
+
+.div6 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(67, 68, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10%;
+}
+
+.n3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 134, 77);
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div {
+    width: auto;
+    line-height: 80px;
+}
+
